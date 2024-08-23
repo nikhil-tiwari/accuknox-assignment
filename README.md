@@ -2,6 +2,10 @@
 
 This guide will help you set up and run your Vite project with React locally.
 
+## Live Demo
+
+You can view the live application [here](https://accuknox-assignment-gray.vercel.app). The application is deployed on Vercel for seamless hosting and performance.
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
