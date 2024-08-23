@@ -3,7 +3,7 @@ import WidgetModal from "./WidgetModal";
 import { useDispatch, useSelector } from "react-redux";
 import { addWidget } from "../redux/slices/image";
 
-const CSPMDashboard = () => {
+const ImageDashboard = () => {
   const [isOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
   const imageWidget = useSelector((store) => store.imageWidgets);
@@ -54,4 +54,4 @@ const CSPMDashboard = () => {
   );
 };
 
-export default CSPMDashboard;
+export default ImageDashboard;

@@ -3,7 +3,7 @@ import WidgetModal from "./WidgetModal";
 import { useDispatch, useSelector } from "react-redux";
 import { addWidget } from "../redux/slices/ticket";
 
-const CSPMDashboard = () => {
+const TicketDashboard = () => {
   const [isOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
   const ticketWidget = useSelector((store) => store.ticketWidgets);
@@ -54,4 +54,4 @@ const CSPMDashboard = () => {
   );
 };
 
-export default CSPMDashboard;
+export default TicketDashboard;

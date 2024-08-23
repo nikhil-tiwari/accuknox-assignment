@@ -3,7 +3,7 @@ import WidgetModal from "./WidgetModal";
 import { useDispatch, useSelector } from "react-redux";
 import { addWidget } from "../redux/slices/cwpp";
 
-const CSPMDashboard = () => {
+const CWPPDashboard = () => {
   const [isOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
   const cwppWidget = useSelector((store) => store.cwppWidgets);
@@ -54,4 +54,4 @@ const CSPMDashboard = () => {
   );
 };
 
-export default CSPMDashboard;
+export default CWPPDashboard;

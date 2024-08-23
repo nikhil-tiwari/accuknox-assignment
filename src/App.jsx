@@ -7,7 +7,7 @@ import CategoryModal from "./components/CategoryModal";
 import { useState } from "react";
 import CSPMDashboard from "./components/CSPMDashboard";
 import CWPPDashboard from "./components/CWPPDashboard";
-import ImageDashboard from "./components/ImageDashBoard";
+import ImageDashboard from "./components/ImageDashboard";
 import TicketDashboard from "./components/TicketDashboard";
 
 function App() {
